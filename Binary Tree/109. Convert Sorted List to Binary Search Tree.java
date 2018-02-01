@@ -1,3 +1,4 @@
+// 时间复杂度nlogn T(n) = 2T(n/2)+n/2
 class Solution {
     public TreeNode sortedListToBST(ListNode head) {
         if (head == null) return null;
@@ -21,3 +22,6 @@ class Solution {
     }
 
 }
+
+// 还有一种解法：采用中序遍历来构造，有点复杂
+
